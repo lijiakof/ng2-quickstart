@@ -1,5 +1,16 @@
 # Angular 2 快速指南
 
+把项目克隆下来后，按顺序运行如下命令，即可启动：
+
+```
+npm install
+$(npm bin)/typings install --global --save dt~core-js
+npm run serve
+// 通过浏览器访问：http://localhost:8080
+```
+
+## 项目创建流程
+
 * 创建 package.json；
 * 创建 tsconfig.json；
 * 创建 typings.json；
