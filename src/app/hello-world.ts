@@ -12,5 +12,4 @@ export class HelloWorld {
 
     constructor(){
     }
-
 }
