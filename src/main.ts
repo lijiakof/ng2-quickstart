@@ -8,9 +8,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { HelloWorld } from './app/hello-world';
 
 @NgModule({
-    bootstrap: [ HelloWorld ],
-    declarations: [ HelloWorld ],
     imports: [ BrowserModule ],
+    declarations: [ HelloWorld ],
+    bootstrap: [ HelloWorld ]
 })
 export class Main {}
 
